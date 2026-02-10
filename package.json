@@ -7,10 +7,16 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": ["api", "rest", "express", "bfhl"],
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "bfhl"
+  ],
   "author": "Bhavya Mahajan",
   "license": "MIT",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "axios": "^1.6.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -20,4 +26,3 @@
     "nodemon": "^3.0.2"
   }
 }
-
